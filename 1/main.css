@@ -1,0 +1,131 @@
+html{
+    background-image: url(images/bats.gif);
+}
+body{
+    font-family: Verdana, Arial, Helvetica,sans-serif;
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    border: 3px solid black;
+    box-shadow: 0 9px 18px 9px;
+}
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-weight: bold;
+    color: orange;
+}
+a:link, a:visited{
+    color: orange;
+}
+a:hover, a:focus{
+    color: green;
+}
+
+header{
+    background-image: -webkit-linear-gradient(45deg,white 0%,orange 75%, black 100%);
+    background-image: -moz-linear-gradient(45deg,white 0%,orange 75%,black 100%);
+    background-image: -o-linear-gradient(45deg,white 0,orange 75%,black 100%);
+    background-image: linear-gradient(45deg,white 0%,orange 75%,black 100%);
+    padding: 15px;
+    border-bottom: 2px solid black;
+}
+header img{
+    float: left;
+    padding-right: 15px;
+}
+header h2{
+    font-size: 230%;
+}
+header h3{
+    font-size: 125%;
+}
+
+#nav_menu ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    list-style: none;
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+#nav_menu ul li{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#nav_menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 26px;
+    
+}
+#nav_menu ul ul li{
+    float: none;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#nav_menu ul ul li:hover{
+    background-color: gray;
+}
+#nav_menu ul li:hover>ul{
+    display: block;
+}
+#nav_menu>ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+main{
+    
+    padding:0px0px 25px 25px;
+}
+main h1{
+    font-size: 140%;
+    margin-bottom:  .5em;
+}
+main h1:first-letter{
+    font-size: 240%;
+}
+main h2{
+    font-size: 125%;
+    margin:  .8em 0 .5em;
+}
+main p{
+    margin-bottom:  .5em;
+}
+main ul{
+    margin-top: 0;
+}
+aside{
+    float: left;
+    width: 160px;
+    padding: 20px 0;
+}
+aside ul{
+    line-height: 1.5;
+}
+section{
+    float: right;
+    width: 570px;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+    border-top: 2px solid black;
+    padding: 15px;
+    background-image: -webkit-linear-gradient(45deg,black 0%,orange 25%,white 100%);
+    background-image: -moz-linear-gradient(45deg,black 0%,orange 25%,white 100%);
+    background-image: -o-linear-gradient(45deg,black 0%,orange 25%,white 100%);
+    background-image: linear-gradient(45deg,black 0%,orange 25%,white 100%);
+}
